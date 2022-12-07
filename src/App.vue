@@ -1,8 +1,14 @@
 <template>
+  <div class="card">
+  <div class="bd-header card-header-tabs secondary">
   <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+    <router-link to="/">Search</router-link> |
+    <router-link to="/shoppinglist">Shopping List</router-link> |
+    <router-link to="/pantry">Pantry</router-link> |
+    <router-link to="/cookbook">Cook Book</router-link>
   </nav>
+  </div>
+  </div>
   <router-view/>
 </template>
 
